@@ -7,4 +7,9 @@ describe 'add' do
     expect(calc.add()).to eq 2
   end
 
+  it 'add 1 + 2 and returns 3' do
+    calc = Arithmatic.new
+    expect(calc.add()).to eq 3
+  end
+
 end
