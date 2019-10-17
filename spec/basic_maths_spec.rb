@@ -2,14 +2,13 @@ require 'basic_maths'
 
 describe 'add' do
 
-  it 'adds 1 + 1 and returns 2' do
+  it 'has parameters?' do
     calc = Arithmatic.new
-    expect(calc.add()).to eq 2
+    expect { calc.add( :param1, :param2 ) }.to_not raise_error
   end
-
-  it 'add 1 + 2 and returns 3' do
+  
+  it 'should return 2 when passed 1 and 1' do
     calc = Arithmatic.new
-    expect(calc.add()).to eq 3
+    expect(calc.add(1,1)).to eq 2
   end
-
 end
