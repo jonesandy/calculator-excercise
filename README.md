@@ -1,6 +1,6 @@
 # calculator-excercise
 
-The purpose of this exercise was to demonstrate the idea of Single Responsibility Principle and Encapsulation. 
+The purpose of this exercise was to demonstrate the idea of Single Responsibility Principle and Encapsulation. Extracting related methods from the original [calculator.rb](lib/calculator.rb) file into their own classes.
 
 ## calculator user stories
 
